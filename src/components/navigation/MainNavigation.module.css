@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+    padding: 8px 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+}
+
+.header a {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+    color: white;
+    background-color: orangered;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
